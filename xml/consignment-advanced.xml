@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<consignments>
+  <consignment transport_agreement="102" estimate="true">
+    <values>
+      <value name="orderno" value="3155"/>
+    </values>
+    <transfer_date>2010-06-11T12:00:00Z</transfer_date>
+    <product>mypack</product>
+    <parts>
+      <consignee>
+        <name>Knut Hansen</name>
+        <country>NO</country>
+        <postcode>6310</postcode>
+        <city>Veblungsnes</city>
+      </consignee>
+      <service_partner>
+        <number>3042033</number>
+        <customer_number>AND001</customer_number>
+        <name>ROMSDAL BLOMSTER OG GAVER</name>
+        <address1>RAUMASENTERET &#xD8;RAN</address1>
+        <country>NO</country>
+        <postcode>6300</postcode>
+        <city>&#xC5;ndalsnes</city>
+      </service_partner>
+    </parts>
+    <items>
+      <item type="PK" amount="1" weight="2" volume="3" description="Something"/>
+    </items>
+    <services>
+      <service id="tg_etterkrav">
+        <amount>4571</amount>
+        <currency>NOK</currency>
+        <kid>1000076353545222</kid>
+      </service>
+    </services>
+    <references>
+      <consignor>Order no: 3155</consignor>
+    </references>
+  </consignment>
+</consignments>
