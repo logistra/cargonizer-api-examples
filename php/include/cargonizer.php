@@ -241,7 +241,7 @@ class CRG_Xmlwriter {
     private $indent;
     private $stack = array();
 
-    function CRG_Xmlwriter($indent = '  ',$encoding = 'ISO-8859-1') {
+    function CRG_Xmlwriter($indent = '  ',$encoding = 'UTF-8') {
         $this->indent = $indent;
         $this->xml = "<?xml version=\"1.0\" encoding=\"$encoding\"?>"."\n";
     }
