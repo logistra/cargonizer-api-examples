@@ -46,11 +46,7 @@ $crg_data['consignments'] = array(
 					"value" => "123456",
 				),
 			),
-		),
-		"collection" => array(
-			"name" => "Dagens",
-			"transfer_date" => date("Y-m-d\TH:i:s",strtotime("+2 hour")), //Automatically transfers EDI after 2 hours
-		),
+		),		
 		"product" => "bring_servicepakke", //From products in transport agreement request
 		"parts" => array(
 			"consignee" => array(
