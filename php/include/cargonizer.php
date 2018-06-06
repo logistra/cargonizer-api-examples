@@ -33,8 +33,8 @@
  * @param string url [optional]
  */
 class cargonizer {
-	private $consignment_url = "http://cargonizer.no/consignments.xml";
-	private $transport_agreement_url = "http://cargonizer.no/transport_agreements.xml";
+	private $consignment_url = "https://cargonizer.no/consignments.xml";
+	private $transport_agreement_url = "https://cargonizer.no/transport_agreements.xml";
 	private $api_key;
 	private $sender_id;
 	private $curl; 
