@@ -21,7 +21,7 @@ namespace call_rest
 		{
 			HttpWebRequest request;
 			WebResponse resp;
-			string targetUrl = "http://cargonizer.no/consignments";
+			string targetUrl = "https://cargonizer.no/consignments";
 			request = (HttpWebRequest)WebRequest.Create(targetUrl);
 			Console.WriteLine("Connecting to URL: " + targetUrl);
 
