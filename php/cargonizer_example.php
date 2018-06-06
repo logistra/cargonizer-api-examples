@@ -8,7 +8,7 @@ require_once("include/cargonizer.php");
  * _attribs are added to the parent element as attributes (<array_key attrib_key = 'attrib_value'>)
  * 
  * For field values, see Logistra's documentation of API
- * http://www.logistra.no/api-documentation/12-utviklerinformasjon/16-api-consignments.html
+ * https://www.logistra.no/api-documentation/12-utviklerinformasjon/16-api-consignments.html
  * 
  */
 
@@ -16,8 +16,8 @@ require_once("include/cargonizer.php");
 $crg_api_key = "776f7sdf6sdf55sdf";
 $crg_sender_id = "xx";
 
-$crg_consignment_url = "http://cargonizer.no/consignments.xml";
-$crg_transport_url = "http://cargonizer.no/transport_agreements.xml";
+$crg_consignment_url = "https://cargonizer.no/consignments.xml";
+$crg_transport_url = "https://cargonizer.no/transport_agreements.xml";
 
 $debug = 1;
 
